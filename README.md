@@ -1,3 +1,8 @@
+> **ATTENTION** This is an experimental test of the [{sandpaper}](https://carpentries.github.io/sandpaper-docs) lesson infrastructure
+> with automated conversion via [the lesson transition script](https://github.com/data-lessons/lesson-transition/).
+> 
+> If anything seems off, please contact Zhian Kamvar [zkamvar@carpentries.org](mailto:zkamvar@carpentries.org)
+
 # Introduction to sMRI (Pre)processing and Analysis in Python
 
 [![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
@@ -18,32 +23,31 @@ The **sMRI Analysis in Python** is a workshop series started up via a collaborat
 
 ## About the lesson
 
-This lesson covers a typrical sMRI imaging pipeline by introducing 1) image modalities, 2) image preprocessing, 3) phoenotype quantification, and 4) statistical analyses.  
+This lesson covers a typrical sMRI imaging pipeline by introducing 1) image modalities, 2) image preprocessing, 3) phoenotype quantification, and 4) statistical analyses.
 
 The primary goals of this workshop are:
+
 1. Understand the basics of strcutural MR image acquisition
 2. Familiarize with structural MR image (pre)processing pipeline
 3. Perform and visualize group-level neuroanatomical analyses
 
-
 ### Episodes
 
-| Time | Episode | Question(s) Answered |
-| ---  | ---     | ---                  |
-||Setup|Download files required for the lesson|
-| 00:00 | 1. sMRI Acquisition and Modalities | How is MR image acquired? What anatomical features do different modalities capture?  |
-| 00:30 | 2. sMRI Clean-up | How do we remove intensity artifacts and extract brains? |
-| 01:15 | 3. sMRI Spatial Normalization | What are "coordinate spaces", "templates", "atlases"? What is image registration? |
-| 02:00 | 4. sMRI Segmentation and Parcellation | How do we delineate brain anatomy and quantify phenotypes? |
-| 02:45 | 5. sMRI Quality-control | How do we identify image preprocessing failures? |
-| 03:15 | 6. Statistical Analysis | How to compare regional anatomical differences in case-control groups? |
-| 04:00 | 7. Reproducibility Considerations | How sensitive are the findings to your MR pipeline parameters? |
-| 04:30 | Finish | |
- 
+| Time  | Episode                               | Question(s) Answered                                                                | 
+| ----- | ------------------------------------- | ----------------------------------------------------------------------------------- |
+|       | Setup                                 | Download files required for the lesson                                              | 
+| 00:00 | 1\. sMRI Acquisition and Modalities    | How is MR image acquired? What anatomical features do different modalities capture? | 
+| 00:30 | 2\. sMRI Clean-up                      | How do we remove intensity artifacts and extract brains?                            | 
+| 01:15 | 3\. sMRI Spatial Normalization         | What are "coordinate spaces", "templates", "atlases"? What is image registration?   | 
+| 02:00 | 4\. sMRI Segmentation and Parcellation | How do we delineate brain anatomy and quantify phenotypes?                          | 
+| 02:45 | 5\. sMRI Quality-control               | How do we identify image preprocessing failures?                                    | 
+| 03:15 | 6\. Statistical Analysis               | How to compare regional anatomical differences in case-control groups?              | 
+| 04:00 | 7\. Reproducibility Considerations     | How sensitive are the findings to your MR pipeline parameters?                      | 
+| 04:30 | Finish                                |                                                                                     | 
 
 ## You Are Here!
-![course_flow](fig/index/Course_flow_0.png)
 
+![course\_flow](fig/index/Course_flow_0.png)
 
 ## Contributing
 
@@ -58,15 +62,14 @@ Please see the current list of [issues](https://github.com/carpentries-incubator
 repository. For making your contribution, we use the GitHub flow, which is
 nicely explained in the chapter [Contributing to a Project](http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project) in Pro Git
 by Scott Chacon.
-Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%20issue-gold.svg). This indicates that the mantainers will welcome a pull request fixing this issue.
-
+Look for the tag ![good\_first\_issue](https://img.shields.io/badge/-good%20first%20issue-gold.svg). This indicates that the mantainers will welcome a pull request fixing this issue.
 
 ## Maintainer(s)
 
-* [Nikhil Bhagwat][nikhil_bhagwat]
-* [Erin Dickie][erin_dickie]
-* [Michael Dayan][Michael_Dayan]
-* [Swapna Premasiri][Swapna_Premasiri]
+- [Nikhil Bhagwat][nikhil_bhagwat]
+- [Erin Dickie][erin_dickie]
+- [Michael Dayan][Michael_Dayan]
+- [Swapna Premasiri][Swapna_Premasiri]
 
 ## Authors
 
@@ -76,9 +79,12 @@ A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)
 
 To cite this lesson, please consult with [CITATION](CITATION)
 
+[neuro\_cirriculum]: https://carpentries.org/community-lessons/#neuroimaging
 [lesson-example]: https://carpentries.github.io/lesson-example
-[nikhil_bhagwat]: https://github.com/nikhil153
-[erin_dickie]: https://github.com/edickie
-[Michael_Dayan]: https://github.com/neurorepro
-[Swapna_Premasiri]: https://github.com/devdinie
-[neuro_cirriculum]: https://carpentries.org/community-lessons/#neuroimaging
+[nikhil\_bhagwat]: https://github.com/nikhil153
+[erin\_dickie]: https://github.com/edickie
+[Michael\_Dayan]: https://github.com/neurorepro
+[Swapna\_Premasiri]: https://github.com/devdinie
+
+
+
