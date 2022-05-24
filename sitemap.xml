@@ -31,6 +31,9 @@
     <loc>https://fishtree-attempt.github.io/SDC-BIDS-sMRI/about.html</loc>
   </url>
   <url>
+    <loc>https://fishtree-attempt.github.io/SDC-BIDS-sMRI/aio.html</loc>
+  </url>
+  <url>
     <loc>https://fishtree-attempt.github.io/SDC-BIDS-sMRI/discuss.html</loc>
   </url>
   <url>
@@ -38,6 +41,9 @@
   </url>
   <url>
     <loc>https://fishtree-attempt.github.io/SDC-BIDS-sMRI/guide.html</loc>
+  </url>
+  <url>
+    <loc>https://fishtree-attempt.github.io/SDC-BIDS-sMRI/images.html</loc>
   </url>
   <url>
     <loc>https://fishtree-attempt.github.io/SDC-BIDS-sMRI/index.html</loc>
@@ -73,6 +79,9 @@
     <loc>https://fishtree-attempt.github.io/SDC-BIDS-sMRI/instructor/about.html</loc>
   </url>
   <url>
+    <loc>https://fishtree-attempt.github.io/SDC-BIDS-sMRI/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>https://fishtree-attempt.github.io/SDC-BIDS-sMRI/instructor/discuss.html</loc>
   </url>
   <url>
@@ -82,7 +91,16 @@
     <loc>https://fishtree-attempt.github.io/SDC-BIDS-sMRI/instructor/guide.html</loc>
   </url>
   <url>
+    <loc>https://fishtree-attempt.github.io/SDC-BIDS-sMRI/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://fishtree-attempt.github.io/SDC-BIDS-sMRI/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://fishtree-attempt.github.io/SDC-BIDS-sMRI/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://fishtree-attempt.github.io/SDC-BIDS-sMRI/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://fishtree-attempt.github.io/SDC-BIDS-sMRI/instructor/profiles.html</loc>
@@ -92,6 +110,12 @@
   </url>
   <url>
     <loc>https://fishtree-attempt.github.io/SDC-BIDS-sMRI/instructor/setup.html</loc>
+  </url>
+  <url>
+    <loc>https://fishtree-attempt.github.io/SDC-BIDS-sMRI/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://fishtree-attempt.github.io/SDC-BIDS-sMRI/key-points.html</loc>
   </url>
   <url>
     <loc>https://fishtree-attempt.github.io/SDC-BIDS-sMRI/profiles.html</loc>
