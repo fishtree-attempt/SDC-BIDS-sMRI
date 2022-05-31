@@ -371,7 +371,7 @@
   Hint
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Try to switch the variable of one T1 image for another.</p>
 </div>
@@ -413,7 +413,7 @@
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>From the shape of the histogram we can see there is some overlap between the tissue distributions. Segmentation on intensity alone is most often not enough, and additional information is required, such as the use of a template with a-priori tissue probability maps (probability of presence of a given tissue at a given location).</p>
 </div>
@@ -464,7 +464,7 @@
   Hint
   </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>Try to explore the BIDSLayout output to find the right surface file.</p>
 </div>
@@ -496,7 +496,7 @@
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <p>An algorithm expecting three tissues types may misclassify lesions as GM on T1 images. Filling lesions with intensity corresponding to WM is a solution sometimes used to avoid these issues (e.g. with Freesurfer). Some software such as ANTs directly accepts a binary lesion mask as an input to deal with this kind of data.</p>
 </div>
@@ -537,7 +537,7 @@
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
 <div class="accordion-body">
 <p>In virtually all cases no single probability threshold will result in each voxel (or vertex) belonging to a unique ROI. A high threshold will result in voxels not having a label, while a low threshold will cause voxels to belong to overlapping probability maps. A “true” parcellation could be obtained by associating to each voxel (or vertex) the label with the maximum probability.</p>
 </div>
@@ -687,7 +687,7 @@
   Hint
   </h4>
 </button>
-<div id="collapseSolution6" class="accordion-collapse collapse" aria-labelledby="headingSolution6" data-bs-parent="#accordionSolution6">
+<div id="collapseSolution6" class="accordion-collapse collapse" data-bs-parent="#accordionSolution6" aria-labelledby="headingSolution6">
 <div class="accordion-body">
 <p>This exercise involves a change of both ROI and hemisphere.</p>
 </div>
@@ -756,7 +756,7 @@
   "creativeWorkStatus": "active",
   "url": "https://fishtree-attempt.github.io/SDC-BIDS-sMRI/instructor/04-Image_Quantification.html",
   "identifier": "https://fishtree-attempt.github.io/SDC-BIDS-sMRI/instructor/04-Image_Quantification.html",
-  "dateCreated": "2022-05-24",
+  "dateCreated": "2022-05-31",
   "dateModified": "2022-05-18",
   "datePublished": "2022-05-31"
 }
