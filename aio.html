@@ -101,7 +101,6 @@
             More <i data-feather="chevron-down"></i>
           </button>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-<li><a class="dropdown-item" href="profiles.html">Learner Profiles</a></li>
 <li><a class="dropdown-item" href="discuss.html">Discussion</a></li>
 <li><a class="dropdown-item" href="figures.html">Figures</a></li>
 <li><a class="dropdown-item" href="reference.html"></a></li>
@@ -286,8 +285,16 @@
                 <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve" data-bs-parent="#accordionFlush12">
                   <div class="accordion-body">
                     <ul>
-<li><a href="profiles.html">Learner Profiles</a></li>
-<li><a href="discuss.html">Discussion</a></li>
+<li>
+                        <a href="key-points.html">Key Points</a>
+                      </li>
+                      <li>
+                        <a href="reference.html#glossary">Glossary</a>
+                      </li>
+                      <li>
+                        <a href="profiles.html">Learner Profiles</a>
+                      </li>
+                      <li><a href="discuss.html">Discussion</a></li>
 <li><a href="figures.html">Figures</a></li>
 <li><a href="reference.html"></a></li>
                     </ul>
@@ -295,8 +302,8 @@
                 </div>
               </div>
             </div>
-
-            <a href="aio.html">See all in one page</a>
+            <hr class="half-width resources">
+<a href="aio.html">See all in one page</a>
 
             <hr class="d-none d-sm-block d-md-none">
 <div class="d-grid gap-1">
@@ -726,7 +733,7 @@
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="output" tabindex="0"><code><span class="st">'N4BiasFieldCorrection --bspline-fitting [ 300 ] -d 3 --input-image structural.nii --convergence [ 50x50x30x20 ] --output structural_corrected.nii --shrink-factor 3'</span></code></pre>
+<pre class="output" tabindex="0"><code><span><span class="st">'N4BiasFieldCorrection --bspline-fitting [ 300 ] -d 3 --input-image structural.nii --convergence [ 50x50x30x20 ] --output structural_corrected.nii --shrink-factor 3'</span></span></code></pre>
 </div>
 </div>
 </div>
@@ -846,8 +853,8 @@
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="output" tabindex="0"><code><span class="st">'antsBrainExtraction.sh -a T1.nii.gz -m ProbabilityMaskOfStudyTemplate.nii.gz
--e study_template.nii.gz -d 3 -s nii.gz -o highres001_'</span></code></pre>
+<pre class="output" tabindex="0"><code><span><span class="st">'antsBrainExtraction.sh -a T1.nii.gz -m ProbabilityMaskOfStudyTemplate.nii.gz</span></span>
+<span><span class="st">-e study_template.nii.gz -d 3 -s nii.gz -o highres001_'</span></span></code></pre>
 </div>
 </div>
 <div class="section level4">
@@ -1059,7 +1066,7 @@
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Downsampling reduces the number of total voxels in the image. Consequently the voxel-spacing is increased as more anatomical space is “sampled” by any given voxel. Note that the new intensity values of the resampled voxels are determined based on the type of interpolation used.</p>
 </div>
@@ -1257,7 +1264,7 @@
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>The deformation fields encode information regarding local morphometric brain changes. These can be quantified using “Jacobians” of the deformation field, and can be used to assess subtle morphometric differences between groups or timepoints.</p>
 </div>
@@ -1683,7 +1690,7 @@
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="output" tabindex="0"><code><span class="fl">2401</span></code></pre>
+<pre class="output" tabindex="0"><code><span><span class="fl">2401</span></span></code></pre>
 </div>
 </div>
 <div class="section level4">
@@ -1997,7 +2004,7 @@
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="output" tabindex="0"><code><span class="fl">3854</span></code></pre>
+<pre class="output" tabindex="0"><code><span><span class="fl">3854</span></span></code></pre>
 </div>
 <p>An image voxel size can be obtained from the file metadata (i.e. data annotation) stored in the image header. <code>nibabel</code> provide an <code>header</code> attribute with a method <code>get_zooms()</code> to obtain the voxel size.</p>
 <div class="codewrapper sourceCode" id="cb5">
@@ -2021,7 +2028,7 @@
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="output" tabindex="0"><code><span class="fl">1.0</span></code></pre>
+<pre class="output" tabindex="0"><code><span><span class="fl">1.0</span></span></code></pre>
 </div>
 <p>The volume in mm3 of the right caudate of our subject is then:</p>
 <div class="codewrapper sourceCode" id="cb9">
@@ -2033,7 +2040,7 @@
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="output" tabindex="0"><code><span class="fl">3854.0</span></code></pre>
+<pre class="output" tabindex="0"><code><span><span class="fl">3854.0</span></span></code></pre>
 </div>
 <p>Note that <code>nibabel</code> offers a utility function to compute the volume of a mask in mm3 according to the voxel size:</p>
 <div class="codewrapper sourceCode" id="cb11">
@@ -2045,7 +2052,7 @@
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="output" tabindex="0"><code><span class="fl">3854.0</span></code></pre>
+<pre class="output" tabindex="0"><code><span><span class="fl">3854.0</span></span></code></pre>
 </div>
 </div>
 <div class="section level4">
@@ -2086,7 +2093,7 @@
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="output" tabindex="0"><code><span class="fl">3354.5343634674136</span></code></pre>
+<pre class="output" tabindex="0"><code><span><span class="fl">3354.5343634674136</span></span></code></pre>
 </div>
 <p>Like with Freesurfer we observe a reduction of GM, albeit significantly more pronounced.</p>
 <div id="challenge1" class="callout challenge">
@@ -3063,9 +3070,9 @@ sub-0010        24.75      1          1</code></pre>
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.6.0" class="external-link">sandpaper (0.6.0)</a>,
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.6.2" class="external-link">sandpaper (0.6.2)</a>,
         <a href="https://github.com/carpentries/pegboard/tree/0.3.0" class="external-link">pegboard (0.3.0)</a>,
-      and <a href="https://github.com/carpentries/varnish/tree/0.2.0" class="external-link">varnish (0.2.0)</a>.</p>
+      and <a href="https://github.com/carpentries/varnish/tree/0.2.1" class="external-link">varnish (0.2.1)</a>.</p>
 			</div>
 		</footer>
 </div> <!-- / div.container -->
@@ -3087,8 +3094,8 @@ sub-0010        24.75      1          1</code></pre>
   "url": "https://fishtree-attempt.github.io/SDC-BIDS-sMRI/aio.html",
   "identifier": "https://fishtree-attempt.github.io/SDC-BIDS-sMRI/aio.html",
   "dateCreated": "2022-05-31",
-  "dateModified": "2022-06-21",
-  "datePublished": "2022-06-21"
+  "dateModified": "2022-06-28",
+  "datePublished": "2022-06-28"
 }
 
   </script><script>
